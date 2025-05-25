@@ -16,10 +16,8 @@ This Django-based REST API enables users to search land records by query (Parcel
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/your-username/land_summary.git
-cd land_summary
-
+cd land_summary 
 
 
  ## API Endpoint
