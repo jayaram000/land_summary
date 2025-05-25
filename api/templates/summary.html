@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summary</title>
+</head>
+<body>
+<h2>Land Record Summary</h2>
+
+
+    {% for record in records %}
+
+    <div class="record" style="margin-bottom:10px">
+        <p><strong>Parcel ID:</strong> {{ record.parcel_id }}</p>
+        <p><strong>Plot Number:</strong> {{ record.plot_number }}</p>
+        <p><strong>Owner Name:</strong> {{ record.owner_name }}</p>
+        <p><strong>Location:</strong> {{ record.location }}</p>
+        <p><strong>Area (sqft):</strong> {{ record.area }} sqft</p>
+
+    </div>
+<br>
+<br>
+
+
+    {% endfor %}
+</body>
+</html>
